@@ -1,0 +1,7 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+
+import com.mapsh.sdk.mvp.MvpPresenter;
+#parse("File Header.java")
+class ${NAME} extends MvpPresenter<${VIEW}> implements ${PRESENTER}{
+
+}

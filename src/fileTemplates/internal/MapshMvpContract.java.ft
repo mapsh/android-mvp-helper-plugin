@@ -1,0 +1,16 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+
+import com.mapsh.sdk.mvp.IMvpPresenter;
+import com.mapsh.sdk.mvp.IMvpView;
+
+#parse("File Header.java")
+interface ${NAME} {
+
+    interface View extends IMvpView {
+
+    }
+
+    interface Presenter extends IMvpPresenter<View> {
+
+    }
+}

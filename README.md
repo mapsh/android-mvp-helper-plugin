@@ -8,12 +8,3 @@ This tool generates an Android
 ## Usage
 
 
-## TODO
-
-
-## Contributors
-
-
-## License
-
-

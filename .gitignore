@@ -1,9 +1,7 @@
 out/
 .idea/
-*.iml
 .DS_Store
 build/
 *.zip
 
 # Build output
-android-parcelable-intellij-plugin.jar
